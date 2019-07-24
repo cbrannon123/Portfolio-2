@@ -1,0 +1,188 @@
+* {
+    box-sizing: border-box;
+    }
+    
+  body {
+  height: 100vh;
+  width: auto;
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica;
+
+  }
+
+  #imgContainer {
+  background: url("./pictures/samuel-zeller-aJZmJeam9O0-unsplash.jpg") no-repeat scroll 50% 50%;
+  background-size: 1440px;
+  background-position: bottom;
+  background-color: #4ddcc83d;
+  background-blend-mode: overlay;
+  }
+  
+  #logo {
+  font-family: Pacifico;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 64px;
+  line-height: 112px;
+  text-align: center;
+  color: #000000;
+  }
+
+
+#headerContainer {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+#headerContainer > h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-style: bolder;
+  font-weight: 800;
+  font-size: 72px;
+  line-height: 98px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+#headerContainer > p {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 450;
+  font-size: 30px;
+  line-height: 33px;
+  margin-top: -40px;
+  margin-bottom: 250px;
+  text-align: center;
+  color: #17111B;  
+}
+
+#lowerHeader {
+  display: flex;
+  background: #b9cbcdd1;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+img {
+  position: relative;
+	margin-top: -140px;
+	margin-bottom: 50px;
+  height: 40vmin;
+  width: 40vmin;
+  border-radius: 50%;
+  filter: brightness(150%)
+}
+
+#lowerHeader > h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 35px;
+  line-height: 65px;
+  text-align: center;
+  color: #121016;
+  margin-bottom: -90px;
+}
+
+#lowerHeader > h6 {
+  margin-top: -10px;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 33px;
+  text-align: center;
+  color: #121016;
+}
+  
+#about {
+  display: flex;
+  flex-direction: row;
+  justify-items: space-evenly;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 25px;
+  text-align: center;
+  color: #000000;
+}
+
+
+ .icons {
+	text-align: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.icon {
+  padding: 25px 30px;
+  display: flex;
+  font-size: 40px;
+}
+
+.proIcons {
+	display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.proIcon {
+	padding: 10px;
+  display: flex;
+  font-size: 20px;
+
+}
+
+#portfolioWhiteSpace {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 56px;
+  line-height: 70px;
+  text-align: center;
+  color: #121016;
+}
+
+#portBorder {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+ .projectContainer{
+	display: flex;
+	padding: 5px;
+	justify-content: center;
+	flex-flow: column wrap;
+	justify-content: space-between;
+	justify-items: center;
+
+ }
+
+ .discContainer {
+	display: flex;
+	width: 340.76px;
+	height: 535.99px;
+	text-align: center;
+	flex-flow: column ;
+ }
+  
+ .imgContainer {
+	display: flex;
+	flex-direction: row;
+	width: 50vmin;
+	height: 50vmin;
+	border: 1px solid black;
+ }
+
+
+
