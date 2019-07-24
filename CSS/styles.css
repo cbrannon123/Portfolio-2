@@ -33,14 +33,16 @@
 #headerContainer {
   display: flex;
   flex-flow: column nowrap;
-  align-items: center;
+	align-items: center;
+	padding: 0;
 }
 
 #headerContainer > h1 {
+
   font-family: 'Open Sans', sans-serif;
   font-style: bolder;
   font-weight: 800;
-  font-size: 72px;
+  font-size: 70px;
   line-height: 98px;
   text-align: center;
   margin-top: 100px;
@@ -105,7 +107,7 @@ img {
   font-family: 'Open Sans', sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 20px;
+  font-size: 19px;
   line-height: 25px;
   text-align: center;
   color: #000000;
@@ -113,21 +115,24 @@ img {
 
 
  .icons {
-	text-align: center;
+	list-style: none;
+	padding: 0;
   display: flex;
-  justify-content: space-around;
-  align-items: center;
+	justify-content: center;
+	align-content: space-around;
 }
 
 .icon {
-  padding: 25px 30px;
-  display: flex;
-  font-size: 40px;
+	justify-content: space-around;
+	font-size: 45px;
+	padding: 25px;
 }
 
 .proIcons {
+	list-style: none;
+	padding: 0;
 	display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
 }
 
@@ -135,7 +140,6 @@ img {
 	padding: 10px;
   display: flex;
   font-size: 20px;
-
 }
 
 #portfolioWhiteSpace {
@@ -143,45 +147,41 @@ img {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  height: 40vh;
+  height: 40vmin;
   font-family: 'Open Sans', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 56px;
   line-height: 70px;
   text-align: center;
-  color: #121016;
+	color: #121016;
+	
 }
 
 #portBorder {
   border-top: 1px solid black;
-  border-bottom: 1px solid black;
+	border-bottom: 1px solid black;
 }
 
- .projectContainer{
+ .projectContainer {
 	display: flex;
-	padding: 5px;
-	justify-content: center;
-	flex-flow: column wrap;
-	justify-content: space-between;
-	justify-items: center;
-
+	flex-flow: column nowrap;
+	text-align: center;
+	align-items: center;
+	padding: 1em;
+	width: 100%;
  }
 
  .discContainer {
-	display: flex;
-	width: 340.76px;
-	height: 535.99px;
-	text-align: center;
-	flex-flow: column ;
+	width: 70vmin;
+	
  }
   
- .imgContainer {
-	display: flex;
-	flex-direction: row;
-	width: 50vmin;
+ .projImg {
+	margin-bottom: 1em;
 	height: 50vmin;
-	border: 1px solid black;
+	width: 50vmin;
+	border: solid black;
  }
 
 
