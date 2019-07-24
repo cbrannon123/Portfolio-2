@@ -38,7 +38,6 @@
 }
 
 #headerContainer > h1 {
-
   font-family: 'Open Sans', sans-serif;
   font-style: bolder;
   font-weight: 800;
@@ -68,7 +67,7 @@
   align-items: center;
 }
 
-img {
+#meImg {
   position: relative;
 	margin-top: -140px;
 	margin-bottom: 50px;
@@ -132,14 +131,14 @@ img {
 	list-style: none;
 	padding: 0;
 	display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
 }
 
 .proIcon {
 	padding: 10px;
   display: flex;
-  font-size: 20px;
+  font-size: 60px;
 }
 
 #portfolioWhiteSpace {
@@ -155,7 +154,6 @@ img {
   line-height: 70px;
   text-align: center;
 	color: #121016;
-	
 }
 
 #portBorder {
@@ -174,13 +172,17 @@ img {
 
  .discContainer {
 	width: 70vmin;
-	
+ }
+
+ .discContainer > p {
+	 text-align: center;
  }
   
- .projImg {
+ .projImg > img {
+	box-shadow: 10px 10px 10px #ABB2B9;
 	margin-bottom: 1em;
 	height: 50vmin;
-	width: 50vmin;
+	width: 60vmin;
 	border: solid black;
  }
 
